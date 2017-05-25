@@ -26,4 +26,7 @@ gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
+# had to add for rails 5.1.1
 gem 'rails-controller-testing'
+# css framework bootstrap
+gem 'bootstrap-sass'
