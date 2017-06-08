@@ -31,3 +31,5 @@ gem 'jquery-rails'
 gem 'rails-controller-testing'
 # css framework bootstrap
 gem 'bootstrap-sass'
+# Used for encrypting User passwords
+gem 'bcrypt'
