@@ -33,3 +33,5 @@ gem 'rails-controller-testing'
 gem 'bootstrap-sass'
 # Used for encrypting User passwords
 gem 'bcrypt'
+#to securely store Sendgrid and Devise credentials as environment variables
+gem 'figaro', '1.0'
