@@ -25,9 +25,23 @@
 <% else %>
   <p><%"{@user.name} has not submitted any posts yet."%></p>
 <% end %>
+
 <% if user_has_comments?(@user) %>
   <h2>Comments</h2>
   <%= render @user.comments %>
 <% else %>
   <p><%"{@user.name} has not submitted any comments yet."%></p>
+<% end %>
+
+<% if user_has_favorites?(@user) %>
+    <h2>Favorites</h2>
+    <small>
+      <ul>
+        <% @user.favorites.each do |favorite| %>
+          <li><%= favorite.post.title%></li>
+        <% end %>
+      </ul>
+    </small>
+<% else %>
+    <p><%= "#{@user.name} has not favorited any posts yet." %></p>
 <% end %>
