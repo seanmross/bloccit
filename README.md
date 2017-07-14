@@ -1,4 +1,4 @@
-# [Bloccit]()
+# Bloccit
 
 Bloccit is a Ruby on Rails application that provides an online forum space for its users. Users, depending on their authorization level, have the ability to create an account, create posts, and comment on/favorite other users posts. It is similar to other forum platforms such as Reddit.
 
@@ -6,7 +6,7 @@ The app is deployed on Heroku:
 
 This app was created as part of the [Bloc](www.bloc.io) Full Stack Web Development course.
 
-## Features
+### Features
 + users have the ability to upvote/downvote on posts
 + posts are filtered by a time-decay algorithm and voting score
 + users have the ability to favorite posts
